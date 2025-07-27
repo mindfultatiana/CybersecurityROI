@@ -1,6 +1,94 @@
 # Cybersecurity ROI Metrics Application
 The program is utility-specific. It allows you to get the estimated savings for preventing data breaches so you can report it to your executive team or board of directors. Showing the financial value of cybersecurity efforts gives IT and other departments credibility.
 
+<img width="1914" height="1014" alt="Screenshot 2025-07-26 223515" src="https://github.com/user-attachments/assets/13bc0074-1d1c-47a7-9385-db3ff36d6a48" />
+
+## Example Output
+```
+=== CYBERSECURITY ROI CALCULATOR FOR RENEWABLE ENERGY UTILITIES ===
+
+This calculator provides executive-ready metrics for board presentations.
+
+📊 EXECUTIVE SUMMARY - MONTHLY CYBERSECURITY ROI
+============================================================
+Estimated breaches prevented this month: 0.086
+Confidence range: 0.064 - 0.112
+
+💰 FINANCIAL IMPACT BREAKDOWN
+----------------------------------------
+Direct Breach Costs: $690,000
+Operational Downtime: $103,500
+Regulatory Compliance: $103,500
+Reputation Protection: $207,000
+
+🎯 TOTAL ESTIMATED SAVINGS: $1,104,000
+Savings range: $817,600 - $1,434,463
+
+📈 ROI METRICS
+----------------------------------------
+Estimated monthly ZT investment: $62,500
+ROI ratio: 17.7x return on investment
+Cost efficiency: $0.06 spent per dollar saved
+
+📋 EXECUTIVE SUMMARY TABLE
+==================================================
+                       Metric      Value
+ Breaches Prevented (Monthly)      0.086
+       Total Financial Impact $1,104,000
+   Direct Breach Cost Savings   $690,000
+ Operational Downtime Savings   $103,500
+Regulatory Compliance Savings   $103,500
+  Reputation Protection Value   $207,000
+Zero Trust Monthly Investment    $62,500
+   Return on Investment Ratio      17.7x
+        Cost Per Dollar Saved      $0.06
+
+
+🎯 SCENARIO ANALYSIS
+============================================================
+
+--- Conservative Scenario ---
+
+🔍 SCENARIO ANALYSIS
+Attack Surface: 1,500 endpoints
+ZT Effectiveness: 60.0%
+Asset Criticality: 1.0x
+Breaches Prevented: 0.021
+Total Savings: $218,437
+ROI Ratio: 5.8x
+
+--- Current Baseline Scenario ---
+
+🔍 SCENARIO ANALYSIS
+Attack Surface: 2,500 endpoints
+ZT Effectiveness: 75.0%
+Asset Criticality: 2.0x
+Breaches Prevented: 0.086
+Total Savings: $910,153
+ROI Ratio: 14.6x
+
+--- Optimistic Scenario ---
+
+🔍 SCENARIO ANALYSIS
+Attack Surface: 3,500 endpoints
+ZT Effectiveness: 85.0%
+Asset Criticality: 2.5x
+Breaches Prevented: 0.171
+Total Savings: $1,805,137
+ROI Ratio: 20.6x
+
+
+📊 READY FOR EXECUTIVE PRESENTATION
+==================================================
+This analysis provides:
+✅ Quantified breach prevention metrics
+✅ Comprehensive financial impact assessment
+✅ Confidence intervals for risk management
+✅ Industry-specific cost considerations
+✅ Visual dashboard for board presentations
+✅ Scenario analysis for strategic planning
+```
+
 ## Required Core Inputs:
 
 ```
