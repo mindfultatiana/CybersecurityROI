@@ -1,7 +1,28 @@
 # Cybersecurity ROI Metrics Application
-The program is utility-specific. It allows you to get the estimated savings for preventing data breaches so you can report it to your executive team or board of directors. Showing the financial value of cybersecurity efforts gives IT and other departments credibility. Right now the python script is set up with sample industry data for renewable energy utilities. The output of that data is listed below. Change the values you need to update it properly. View the [Required Core Inputs](https://github.com/mindfultatiana/CybersecurityROI?tab=readme-ov-file#required-core-inputs) section to get a list of what you may want to update.
+The program is utility-specific. It allows you to get the estimated savings for preventing data breaches so you can report it to your executive team or board of directors. Showing the financial value of cybersecurity efforts gives IT and other departments credibility. Right now the python script is set up with sample industry data for renewable energy utilities. The output of that data is listed below. Change the values you need to update it properly. View the [#] section to get a list of what you may want to update.
 
 <img width="1914" height="1014" alt="Screenshot 2025-07-26 223515" src="https://github.com/user-attachments/assets/13bc0074-1d1c-47a7-9385-db3ff36d6a48" />
+
+## Realistic Example Values:
+For a mid-sized renewable energy utility:
+- Attack Surface Size: 2,500 endpoints
+- Zero Trust Effectiveness: 75% (0.75)
+- Custom Breach Cost: $8,000,000
+- Asset Criticality: 2.0 (high criticality)
+- Downtime Hours: 24 hours
+
+The program will handle all the complex calculations and generate professional charts and metrics using these inputs. You can also run multiple scenarios by adjusting these parameters to show best-case, worst-case, and most likely outcomes for the executive presentation.
+
+### Input Explanation
+1. *Attack Surface Size (integer)*
+- Number of critical endpoints, systems, or high-value assets
+- Examples: servers, SCADA systems, IoT devices, workstations
+- Typical range: 500-5,000 for utilities
+
+2. *Zero Trust Effectiveness Rate (decimal 0.0-1.0)*
+- Estimated risk reduction percentage from zero trust implementation
+- Example: 0.75 = 75% risk reduction
+- Typical range: 0.60-0.90
 
 ## Example Output
 ```
@@ -89,49 +110,20 @@ This analysis provides:
 ✅ Scenario analysis for strategic planning
 ```
 
-## Required Core Inputs:
-
-```
-BASIC INPUTS (Required):
-□ Attack Surface Size: _______ (number of critical assets)
-□ Zero Trust Effectiveness: _____% (expected risk reduction)
-
-OPTIONAL CUSTOMIZATION:
-□ Custom Breach Cost: $_______ (leave blank to use $6.45M industry standard)
-□ Asset Criticality: _____ (1.0-3.0, use 2.0 for utilities)
-□ Downtime Hours per Breach: _____ (use 24 if unsure)
-
-CLIENT-SPECIFIC CONTEXT:
-□ Current monthly cybersecurity spend: $_______
-□ Annual revenue: $_______
-□ Number of customers served: _______
-□ Regulatory environment: _______
-```
-### Input Explanation
-1. *Attack Surface Size (integer)*
-- Number of critical endpoints, systems, or high-value assets
-- Examples: servers, SCADA systems, IoT devices, workstations
-- Typical range: 500-5,000 for utilities
-
-2. *Zero Trust Effectiveness Rate (decimal 0.0-1.0)*
-- Estimated risk reduction percentage from zero trust implementation
-- Example: 0.75 = 75% risk reduction
-- Typical range: 0.60-0.90
-
 ### Optional Customization Inputs:
 
-3. *Custom Breach Cost (dollar amount, optional)*
+1. *Custom Breach Cost (dollar amount, optional)*
 - Client's estimated cost per cybersecurity breach
 - If not provided, uses industry benchmark ($6.45M for energy sector)
 - Should include: incident response, recovery, legal, regulatory fines
 
-4. *Asset Criticality Score (decimal 1.0-3.0, optional)*
+2. *Asset Criticality Score (decimal 1.0-3.0, optional)*
 Multiplier for how critical the client's assets are
 - 1.0 = standard criticality
 - 2.0 = high criticality (default for utilities)
 - 3.0 = extremely critical infrastructure
 
-5. *Average Downtime Hours (integer, optional)*
+3. *Average Downtime Hours (integer, optional)*
 - Expected hours of operational downtime per breach
 - Default: 24 hours
 
@@ -193,12 +185,4 @@ Added renewable energy utility benchmarks including
 - Timeline for rollout?
 - Expected effectiveness based on their specific environment?
 
-## Realistic Example Values:
-For a mid-sized renewable energy utility:
-- Attack Surface Size: 2,500 endpoints
-- Zero Trust Effectiveness: 75% (0.75)
-- Custom Breach Cost: $8,000,000
-- Asset Criticality: 2.0 (high criticality)
-- Downtime Hours: 24 hours
 
-The program will handle all the complex calculations and generate professional charts and metrics using these inputs. You can also run multiple scenarios by adjusting these parameters to show best-case, worst-case, and most likely outcomes for the executive presentation.
