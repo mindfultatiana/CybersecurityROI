@@ -56,14 +56,17 @@ It includes Executive friendly visualizations, and has multiple dimensions of va
 #### Industry-Specific Focus: 
 Added renewable energy utility benchmarks including operational downtime costs (critical for utilities), regulatory compliance considerations, and reputation damage factors.
 
+
 #### Comprehensive Cost Model: 
 Direct breach costs
 Operational downtime costs
 Regulatory compliance savings
 Reputation protection value
 
+
 #### Statistical Rigor: 
 Added confidence intervals using Monte Carlo simulation to provide more credible estimates for executive presentations.
+
 
 #### Executive-Ready Visualizations: 
 Savings breakdown pie chart
@@ -71,14 +74,17 @@ Confidence interval visualization
 Cumulative savings projection
 ROI comparison charts
 
+
 #### Enhanced Methodology:
 Baseline risk calculation based on attack surface size
 Asset criticality scoring
 ROI metrics calculation
 Scenario analysis capabilities
 
+
 #### Professional Reporting: 
 Generated executive summary tables and comprehensive monthly reports suitable for board presentations.
+
 
 ## Information to Gather
 
@@ -87,20 +93,24 @@ How many servers, endpoints, and IoT devices do they have?
 What are their most critical systems (generation, distribution, control systems)?
 How many employees have network access?
 
+
 ### Current Security Posture:
 What security measures are currently in place?
 Have they experienced any incidents in the past?
 What's their current cybersecurity budget?
+
 
 ### Business Impact Understanding:
 What does an hour of downtime cost them in lost revenue?
 What regulatory requirements do they face (NERC CIP, etc.)?
 How would a breach affect customer trust and reputation?
 
+
 ### Zero Trust Implementation Plan:
 What level of zero trust implementation are they considering?
 Timeline for rollout?
 Expected effectiveness based on their specific environmen
+
 
 ## Realistic Example Values:
 For a mid-sized renewable energy utility:
