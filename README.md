@@ -1,37 +1,6 @@
 # Cybersecurity ROI Metrics Application
 The program is utility-specific. It allows you to get the estimated savings for preventing data breaches so you can report it to your executive team or board of directors. Showing the financial value of cybersecurity efforts gives IT and other departments credibility.
 
-## Executive Friendly
-
-It includes Executive friendly visualizations, and has multiple dimensions of value beyond just breach prevention with the following elements:
-
-### Industry-Specific Focus: 
-Added renewable energy utility benchmarks including operational downtime costs (critical for utilities), regulatory compliance considerations, and reputation damage factors.
-
-### Comprehensive Cost Model: 
-Direct breach costs
-Operational downtime costs
-Regulatory compliance savings
-Reputation protection value
-
-### Statistical Rigor: 
-Added confidence intervals using Monte Carlo simulation to provide more credible estimates for executive presentations.
-
-### Executive-Ready Visualizations: 
-Savings breakdown pie chart
-Confidence interval visualization
-Cumulative savings projection
-ROI comparison charts
-
-### Enhanced Methodology:
-Baseline risk calculation based on attack surface size
-Asset criticality scoring
-ROI metrics calculation
-Scenario analysis capabilities
-
-### Professional Reporting: 
-Generated executive summary tables and comprehensive monthly reports suitable for board presentations.
-
 ## Required Core Inputs:
 
 ```
@@ -83,6 +52,37 @@ Multiplier for how critical the client's assets are
 Expected hours of operational downtime per breach
 Default: 24 hours
 Critical for utilities due to service continuity requirements
+
+## Executive Friendly
+
+It includes Executive friendly visualizations, and has multiple dimensions of value beyond just breach prevention with the following elements:
+
+### Industry-Specific Focus: 
+Added renewable energy utility benchmarks including operational downtime costs (critical for utilities), regulatory compliance considerations, and reputation damage factors.
+
+### Comprehensive Cost Model: 
+Direct breach costs
+Operational downtime costs
+Regulatory compliance savings
+Reputation protection value
+
+### Statistical Rigor: 
+Added confidence intervals using Monte Carlo simulation to provide more credible estimates for executive presentations.
+
+### Executive-Ready Visualizations: 
+Savings breakdown pie chart
+Confidence interval visualization
+Cumulative savings projection
+ROI comparison charts
+
+### Enhanced Methodology:
+Baseline risk calculation based on attack surface size
+Asset criticality scoring
+ROI metrics calculation
+Scenario analysis capabilities
+
+### Professional Reporting: 
+Generated executive summary tables and comprehensive monthly reports suitable for board presentations.
 
 ## Information to Gather
 
