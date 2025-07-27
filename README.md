@@ -19,7 +19,7 @@ CLIENT-SPECIFIC CONTEXT:
 □ Number of customers served: _______
 □ Regulatory environment: _______
 ```
-
+### Input Explanation
 1. Attack Surface Size (integer)
 
 Number of critical endpoints, systems, or high-value assets
@@ -32,7 +32,7 @@ Estimated risk reduction percentage from zero trust implementation
 Example: 0.75 = 75% risk reduction
 Typical range: 0.60-0.90
 
-## Optional Customization Inputs:
+### Optional Customization Inputs:
 
 3. Custom Breach Cost (dollar amount, optional)
 
@@ -51,9 +51,10 @@ Multiplier for how critical the client's assets are
 
 Expected hours of operational downtime per breach
 Default: 24 hours
+
 Critical for utilities due to service continuity requirements
 
-## Executive Friendly
+## Executive Friendly Features
 
 It includes Executive friendly visualizations, and has multiple dimensions of value beyond just breach prevention with the following elements:
 
