@@ -21,13 +21,11 @@ CLIENT-SPECIFIC CONTEXT:
 ```
 ### Input Explanation
 1. Attack Surface Size (integer)
-
 Number of critical endpoints, systems, or high-value assets
 Examples: servers, SCADA systems, IoT devices, workstations
 Typical range: 500-5,000 for utilities
 
 2. Zero Trust Effectiveness Rate (decimal 0.0-1.0)
-
 Estimated risk reduction percentage from zero trust implementation
 Example: 0.75 = 75% risk reduction
 Typical range: 0.60-0.90
@@ -35,20 +33,17 @@ Typical range: 0.60-0.90
 ### Optional Customization Inputs:
 
 3. Custom Breach Cost (dollar amount, optional)
-
 Client's estimated cost per cybersecurity breach
 If not provided, uses industry benchmark ($6.45M for energy sector)
 Should include: incident response, recovery, legal, regulatory fines
 
 4. Asset Criticality Score (decimal 1.0-3.0, optional)
-
 Multiplier for how critical the client's assets are
 1.0 = standard criticality
 2.0 = high criticality (default for utilities)
 3.0 = extremely critical infrastructure
 
 5. Average Downtime Hours (integer, optional)
-
 Expected hours of operational downtime per breach
 Default: 24 hours
 
